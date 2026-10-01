@@ -75,17 +75,21 @@ The project is built with a **component-driven architecture**, uses the **Contex
 
 ## 📂 Project Structure
 
-```bash
+
 myShop/
-├── public/                  # Static assets
+├── public/                    # Static assets
+│
 ├── src/
-│   ├── assets/              # Images, icons, static resources
-│   ├── components/          # Reusable UI components
+│   ├── assets/                # Images, icons, and static resources
+│   │
+│   ├── components/            # Reusable UI components
 │   │   ├── Navbar.jsx
 │   │   └── Footer.jsx
-│   ├── context/             # Global state (Context API)
+│   │
+│   ├── context/               # Global state management
 │   │   └── AppState.jsx
-│   ├── pages/               # Route-level pages
+│   │
+│   ├── pages/                 # Route-level pages
 │   │   ├── Hero.jsx
 │   │   ├── ProductDetails.jsx
 │   │   ├── SearchItem.jsx
@@ -93,18 +97,28 @@ myShop/
 │   │   ├── Address.jsx
 │   │   ├── About.jsx
 │   │   └── Contact.jsx
-│   ├── App.jsx              # Routes & layout
-│   ├── App.css
-│   ├── index.css            # Tailwind import & global styles
-│   └── main.jsx             # App entry point (wrapped with AppState provider)
-├── eslint.config.js
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
+│   │
+│   ├── App.jsx                # Application routes and layout
+│   ├── App.css                # Application-level styles
+│   ├── index.css              # Global styles and Tailwind CSS
+│   └── main.jsx               # Application entry point
+│
+├── screenshots/               # Project screenshots
+│   ├── home.png
+│   ├── product-details.png
+│   ├── cart.png
+│   ├── search.png
+│   └── payment.png
+│
+├── .gitignore                 # Git ignored files
+├── eslint.config.js           # ESLint configuration
+├── index.html                 # HTML entry point
+├── package.json               # Project dependencies and scripts
+├── package-lock.json          # Dependency lock file
+├── vite.config.js             # Vite configuration
+└── README.md                  # Project documentation
 ```
-
----
+```
 
 ## 🧭 Application Routes
 
