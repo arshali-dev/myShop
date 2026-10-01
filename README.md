@@ -76,21 +76,16 @@ The project is built with a **component-driven architecture**, uses the **Contex
 
 ## 📂 Project Structure
 
-```text
 myShop/
-├── public/
-│
+├── public/                  # Static assets
 ├── src/
-│   ├── assets/
-│   │
-│   ├── components/
+│   ├── assets/              # Images, icons, static resources
+│   ├── components/          # Reusable UI components
 │   │   ├── Navbar.jsx
 │   │   └── Footer.jsx
-│   │
-│   ├── context/
+│   ├── context/             # Global state (Context API)
 │   │   └── AppState.jsx
-│   │
-│   ├── pages/
+│   ├── pages/               # Route-level pages
 │   │   ├── Hero.jsx
 │   │   ├── ProductDetails.jsx
 │   │   ├── SearchItem.jsx
@@ -98,27 +93,15 @@ myShop/
 │   │   ├── Address.jsx
 │   │   ├── About.jsx
 │   │   └── Contact.jsx
-│   │
-│   ├── App.jsx
+│   ├── App.jsx              # Routes & layout
 │   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-│
-├── screenshots/
-│   ├── home.png
-│   ├── product-details.png
-│   ├── cart.png
-│   ├── search.png
-│   └── payment.png
-│
-├── .gitignore
+│   ├── index.css            # Tailwind import & global styles
+│   └── main.jsx             # App entry point (wrapped with AppState provider)
 ├── eslint.config.js
 ├── index.html
 ├── package.json
-├── package-lock.json
 ├── vite.config.js
 └── README.md
-```
 
 ## 🧭 Application Routes
 
