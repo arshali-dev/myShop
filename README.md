@@ -77,19 +77,19 @@ The project is built with a **component-driven architecture**, uses the **Contex
 
 ```text
 myShop/
-├── public/                    # Static assets
+├── public/
 │
 ├── src/
-│   ├── assets/                # Images, icons, and static resources
+│   ├── assets/
 │   │
-│   ├── components/            # Reusable UI components
+│   ├── components/
 │   │   ├── Navbar.jsx
 │   │   └── Footer.jsx
 │   │
-│   ├── context/               # Global state management
+│   ├── context/
 │   │   └── AppState.jsx
 │   │
-│   ├── pages/                 # Route-level pages
+│   ├── pages/
 │   │   ├── Hero.jsx
 │   │   ├── ProductDetails.jsx
 │   │   ├── SearchItem.jsx
@@ -98,25 +98,25 @@ myShop/
 │   │   ├── About.jsx
 │   │   └── Contact.jsx
 │   │
-│   ├── App.jsx                # Application routes and layout
-│   ├── App.css                # Application-level styles
-│   ├── index.css              # Global styles and Tailwind CSS
-│   └── main.jsx               # Application entry point
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
 │
-├── screenshots/               # Project screenshots
+├── screenshots/
 │   ├── home.png
 │   ├── product-details.png
 │   ├── cart.png
 │   ├── search.png
 │   └── payment.png
 │
-├── .gitignore                 # Git ignored files
-├── eslint.config.js           # ESLint configuration
-├── index.html                 # HTML entry point
-├── package.json               # Project dependencies and scripts
-├── package-lock.json          # Dependency lock file
-├── vite.config.js             # Vite configuration
-└── README.md                  # Project documentation
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
 ```
 
 ## 🧭 Application Routes
