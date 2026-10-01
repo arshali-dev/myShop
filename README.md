@@ -4,6 +4,15 @@
 
 ### A modern, responsive e-commerce web application built with React 19, Vite & Tailwind CSS
 
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![React Router](https://img.shields.io/badge/React_Router-7-CA4245?logo=reactrouter&logoColor=white)](https://reactrouter.com/)
+[![ESLint](https://img.shields.io/badge/ESLint-9-4B32C3?logo=eslint&logoColor=white)](https://eslint.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+[Live Demo](#-live-demo) · [Features](#-features) · [Tech Stack](#-tech-stack) · [Getting Started](#-getting-started) · [Roadmap](#-roadmap)
+
 </div>
 
 ## 📖 Overview
@@ -217,12 +226,9 @@ Contributions, issues and feature requests are welcome!
 ## 👨‍💻 Author
 
 **Arsh Ali**
-B.Tech CSE - Jharkhand University of Technology
+B.Tech CSE, Jharkhand University of Technology
 
-[![GitHub](https://github.com/arshali-dev)
-[![LinkedIn](https://www.linkedin.com/in/arsh-ali-b18039256/)
-[![Email](arshali737100@gmail.com)
-
+[GitHub](https://github.com/arshali-dev) • [LinkedIn](https://www.linkedin.com/in/arsh-ali-b18039256/) • [Email](mailto:arshali737100@gmail.com)
 ---
 
 <div align="center">
