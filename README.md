@@ -24,16 +24,16 @@ The project is built with a **component-driven architecture**, uses the **Contex
 ## 📸 Screenshots
 
 | Home Page | Product Details |
-| :---: | :---: |
+|:---:|:---:|
 | ![Home](./screenshots/home.png) | ![Product Details](./screenshots/product-details.png) |
 
 | Cart | Search Results |
-| :---: | :---: |
+|:---:|:---:|
 | ![Cart](./screenshots/cart.png) | ![Search](./screenshots/search.png) |
 
-### 💳 Payment
-
-![Payment](./screenshots/payment.png)
+| Payment |
+|:---:|
+| ![Payment](./screenshots/payment.png) |
 
 
 ---
