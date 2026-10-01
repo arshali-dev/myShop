@@ -75,7 +75,7 @@ The project is built with a **component-driven architecture**, uses the **Contex
 
 ## 📂 Project Structure
 
-
+```text
 myShop/
 ├── public/                    # Static assets
 │
@@ -117,7 +117,6 @@ myShop/
 ├── package-lock.json          # Dependency lock file
 ├── vite.config.js             # Vite configuration
 └── README.md                  # Project documentation
-```
 ```
 
 ## 🧭 Application Routes
