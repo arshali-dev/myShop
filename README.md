@@ -76,16 +76,21 @@ The project is built with a **component-driven architecture**, uses the **Contex
 
 ## 📂 Project Structure
 
+```text
 myShop/
-├── public/                  # Static assets
+├── public/
+│
 ├── src/
-│   ├── assets/              # Images, icons, static resources
-│   ├── components/          # Reusable UI components
+│   ├── assets/
+│   │
+│   ├── components/
 │   │   ├── Navbar.jsx
 │   │   └── Footer.jsx
-│   ├── context/             # Global state (Context API)
+│   │
+│   ├── context/
 │   │   └── AppState.jsx
-│   ├── pages/               # Route-level pages
+│   │
+│   ├── pages/
 │   │   ├── Hero.jsx
 │   │   ├── ProductDetails.jsx
 │   │   ├── SearchItem.jsx
@@ -93,29 +98,26 @@ myShop/
 │   │   ├── Address.jsx
 │   │   ├── About.jsx
 │   │   └── Contact.jsx
-│   ├── App.jsx              # Routes & layout
+│   │
+│   ├── App.jsx
 │   ├── App.css
-│   ├── index.css            # Tailwind import & global styles
-│   └── main.jsx             # App entry point (wrapped with AppState provider)
+│   ├── index.css
+│   └── main.jsx
+│
+├── screenshots/
+│   ├── home.png
+│   ├── product-details.png
+│   ├── cart.png
+│   ├── search.png
+│   └── payment.png
+│
+├── .gitignore
 ├── eslint.config.js
 ├── index.html
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
 └── README.md
-
-## 🧭 Application Routes
-
-| Route | Page | Description |
-| --- | --- | --- |
-| `/` | Hero | Home page with featured products |
-| `/products/:id` | ProductDetails | Detailed view of a single product |
-| `/search/:term` | SearchItem | Search results for the given term |
-| `/cart` | Cart | Items added by the user |
-| `/address` | Address | Delivery address form |
-| `/about` | About | About the store |
-| `/contact` | Contact | Contact information |
-
----
 
 ## 🚀 Getting Started
 
