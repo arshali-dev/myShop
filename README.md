@@ -31,6 +31,10 @@ The project is built with a **component-driven architecture**, uses the **Contex
 | :---: | :---: |
 | ![Cart](./screenshots/cart.png) | ![Search](./screenshots/search.png) |
 
+### 💳 Payment
+
+![Payment](./screenshots/payment.png)
+
 
 ---
 
