@@ -4,6 +4,7 @@
 
 ### A modern, responsive e-commerce web application built with React 19, Vite & Tailwind CSS
 
+</div>
 
 ## 📖 Overview
 
@@ -239,7 +240,7 @@ B.Tech CSE - Jharkhand University of Technology
 
 ---
 
-</div align="center">
+<div align="center">
 
 ⭐ **If you found this project helpful, please consider giving it a star!** ⭐
 
